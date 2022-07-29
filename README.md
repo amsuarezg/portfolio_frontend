@@ -3,8 +3,8 @@
 ## Run the server
 
 ```shell
-docker build -t amsuarezg_back .
-docker run -d -p 80:80 amsuarezg_back
+docker build -t amsuarezg_front .
+docker run -d -p 3000:3000 amsuarezg_back
 ```
 
 # Getting Started with Create React App
