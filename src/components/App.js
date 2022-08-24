@@ -1,4 +1,6 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Inicio from './Inicio';
+import Secciones from './Secciones';
 
 function App() {
   return (
@@ -6,20 +8,12 @@ function App() {
     // that are nested inside this component have access to the router
     <Router>
       <div className="App">
-
         {/* Switch: This component makes sure that only one Route shows at any one time */}
-        <Switch>
-          
+        <Routes>
           {/* We create a Route for each page that we have */}
-          <Route path="/">
-            <Inicio/>
-          </Route>
-
-          <Route path="/secciones">
-            <Secciones/>      
-          </Route>
-
-        </Switch>
+          <Route exact path="/" element={<Inicio/>}/>
+          <Route exact path="/secciones" element={<Secciones/>}/>
+        </Routes>
       </div>
     </Router>
   );
