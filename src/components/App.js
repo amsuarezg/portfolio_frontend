@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Inicio from './Inicio';
-import Secciones from './Secciones';
+import Secciones from './Secciones/Secciones';
 
 function App() {
   return (
