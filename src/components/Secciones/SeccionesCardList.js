@@ -11,7 +11,8 @@ const SeccionesCardList = () => {
                         <SeccionesCard
                             key={i}
                             title={seccion.title}
-                            bg={seccion.background}
+                            bg={seccion.bg}
+                            len={secciones.length}
                         />
                     );
                 })
