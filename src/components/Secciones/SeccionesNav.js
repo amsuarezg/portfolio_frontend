@@ -3,7 +3,7 @@ import React from "react";
 const SeccionesNav = () => {
     return(
         <div>
-            <div className="tc pa3 flex flex-column items-center ml3 secnav">
+            <div className="tc pa3 flex flex-column items-center ml4 secnav">
                 <p className="mt3 mb3">INICIO</p>
                 <p className="mt3 mb3"><strong>FOTOGRAFÍA</strong></p>
                 <p className="mt3 mb3">VIDEO</p>

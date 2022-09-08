@@ -4,7 +4,7 @@ import {secciones} from "./SeccionesList";
 
 const SeccionesCardList = () => {
     return(
-        <div className="pa3 w-100">
+        <div className="pa3 w-80">
             {
                 secciones.map((seccion,i) =>{
                     return (
