@@ -4,7 +4,7 @@ import SeccionesCardList from "./SeccionesCardList";
 
 const Secciones = () => {
     return (
-        <div className="flex flex-wrap justift-center">
+        <div className="flex justift-center">
             <SeccionesNav/>
             <SeccionesCardList/>
         </div>

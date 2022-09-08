@@ -9,3 +9,10 @@
   background-color: #000000ff;
   color: #ffffff;
 }
+
+/* secnav styles */
+.secnav {
+  align-items: center;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}

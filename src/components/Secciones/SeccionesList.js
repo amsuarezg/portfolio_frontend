@@ -1,10 +1,10 @@
 export const secciones = [
     {
         title: 'FOTOGRAFÍA DIGITAL',
-        img: ''
+        background: '../../assets/3.jpg'
     },
     {
         title: 'FOTOGRAFÍA ANÁLOGA',
-        img: ''
+        background: '../../assets/unlugarpropio_still04.jpg'
     }
 ]

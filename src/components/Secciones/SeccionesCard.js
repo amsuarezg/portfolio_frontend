@@ -1,8 +1,11 @@
 import React from "react";
 
-const SeccionesCard = ({title}) =>{
+const SeccionesCard = ({title,background}) =>{
+    //const card_bg = `background:url(${background}]) no-repeat center;`
     return(
-        <div>
+        <div
+            className="tc w-100"
+        >
             <p>{title}</p>
         </div>
     )

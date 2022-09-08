@@ -3,14 +3,14 @@ import React from "react";
 const SeccionesNav = () => {
     return(
         <div>
-            <div className="pa3 flex flex-column items-center mt5 mb5">
-                <p>INICIO</p>
-                <p><strong>FOTOGRAFÍA</strong></p>
-                <p>VIDEO</p>
-                <p>CINEFECTOS</p>
-                <p>PROYECTOS EN DESARROLLO</p>
-                <p>SOBRE MATEO</p>
-                <p>CONTACTO</p>
+            <div className="tc pa3 flex flex-column items-center ml3 secnav">
+                <p className="mt3 mb3">INICIO</p>
+                <p className="mt3 mb3"><strong>FOTOGRAFÍA</strong></p>
+                <p className="mt3 mb3">VIDEO</p>
+                <p className="mt3 mb3">CINEFECTOS</p>
+                <p className="mt3 mb3">PROYECTOS <br/> EN DESARROLLO</p>
+                <p className="mt3 mb3">SOBRE MATEO</p>
+                <p className="mt3 mb3">CONTACTO</p>
             </div>
         </div>
     )
