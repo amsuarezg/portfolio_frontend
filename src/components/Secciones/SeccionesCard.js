@@ -1,12 +1,13 @@
 import React from "react";
 
-const SeccionesCard = ({title,background}) =>{
-    //const card_bg = `background:url(${background}]) no-repeat center;`
+const SeccionesCard = ({title,bg}) =>{
+    const card_bg = "url(http://mrmrs.github.io/photos/u/009.jpg) no-repeat center;";
     return(
         <div
-            className="tc w-100"
+            className="flex justify-center items-center h-50 ma3"
+            style={{backgroundColor: "blue"}}
         >
-            <p>{title}</p>
+            {title}
         </div>
     )
 }

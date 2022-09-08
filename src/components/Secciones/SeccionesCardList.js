@@ -11,7 +11,7 @@ const SeccionesCardList = () => {
                         <SeccionesCard
                             key={i}
                             title={seccion.title}
-                            img={seccion.background}
+                            bg={seccion.background}
                         />
                     );
                 })
