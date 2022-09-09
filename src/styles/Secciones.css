@@ -1,8 +1,8 @@
 /* secnav styles */
 .secnav {
   align-items: center;
-  margin-top: 50%;
-  margin-bottom: 50%;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
   width: 25vh;
 }
 
