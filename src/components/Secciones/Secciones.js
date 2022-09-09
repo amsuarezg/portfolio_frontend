@@ -1,6 +1,7 @@
 import React from "react";
 import SeccionesNav from "./SeccionesNav";
 import SeccionesCardList from "./SeccionesCardList";
+import "../../styles/Secciones.css";
 
 const Secciones = () => {
     return (

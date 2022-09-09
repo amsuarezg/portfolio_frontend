@@ -1,0 +1,27 @@
+/* secnav styles */
+.secnav {
+  align-items: center;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  width: 25vh;
+}
+
+.secnavlink {
+  cursor: pointer;
+  opacity: .7;
+  transition: opacity .15s ease-out;
+}
+
+.secnavlink:hover,
+.secnavlink:focus {
+  font-weight: bold;
+  opacity: 1;
+  transition: opacity .15s ease-out;
+}
+
+/*seccard styles */
+.seccard {
+  background-size: 100%;
+  background-position: center;
+}
+

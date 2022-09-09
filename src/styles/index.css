@@ -10,15 +10,3 @@
   color: #ffffff;
 }
 
-/* secnav styles */
-.secnav {
-  align-items: center;
-  margin-top: 50%;
-  margin-bottom: 50%;
-}
-
-/*seccard styles */
-.seccard {
-  background-size: 100%;
-  background-position: center;
-}
