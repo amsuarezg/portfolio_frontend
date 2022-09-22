@@ -32,3 +32,19 @@
   font-weight: bold;
 }
 
+.seccard_out {
+  background-color: #2187ab;
+}
+
+.secdim {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+.secdim:hover,
+.secdim:focus {
+  opacity: .8;
+  transition: opacity .15s ease-in;
+}
+.secdim:active {
+  opacity: .9; transition: opacity .15s ease-out;
+}
